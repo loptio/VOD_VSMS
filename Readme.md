@@ -1,6 +1,6 @@
 # VSMS - video sales management system
 
-This is an school term project
+This is a term project for course 'Database'.
 基於 Django + Vue.js 的現代化視頻店管理系統。
 因為每台設備環境不同；建議使用Docker部署。
 可用去photo查看er圖，關係模型和sql查詢結果
