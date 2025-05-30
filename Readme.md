@@ -1,5 +1,5 @@
-# 411277043 趙徊智 ，411277017 黃榮恩
-# VSMS - 視頻店管理系統
+
+# VSMS - video sales management system
 
 基於 Django + Vue.js 的現代化視頻店管理系統。
 因為每台設備環境不同；建議使用Docker部署。
