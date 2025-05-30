@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: ./backend/Dockerfile
+    container_name: vsms_backend
+    environment:
+      - DEBUG=False
+    ports:
+      - "8000:8000"
+    networks:
+      - vsms_network
+    restart: unless-stopped
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: vsms_frontend
+    ports:
+      - "8081:8081"
+    depends_on:
+      - backend
+    networks:
+      - vsms_network
+    restart: unless-stopped
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+networks:
+  vsms_network:
+    driver: bridge

@@ -1,0 +1,58 @@
+# Git
+.git
+.gitignore
+
+# Documentation
+*.md
+README*
+
+# Environment files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Dependencies
+node_modules
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Build outputs
+build
+dist
+*.egg-info
+
+# Database
+*.sqlite3
+*.db
+
+# Temporary files
+tmp
+temp
