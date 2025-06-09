@@ -1,6 +1,15 @@
 # VSMS - video sales management system
 # 411277043趙徊智  411277017 黃榮恩
 
+# 前言
+- This is a term project for course 'Database'.
+- 基於 Django + Vue.js 的現代化視頻店管理系統。
+- 因為每台設備環境不同；建議使用Docker部署。
+- 因為Django會自動在資料庫生成一些表；是Django框架的基礎設施表，不是業務邏輯的一部分;auth開頭和django開頭的表，這些表不會畫在er圖和關係模型上。
+- *** 記得要先可以連上學校的資料庫（連上學校vpn）後才能正常運行。*** 
+
+---
+
 ## 介面展示
 - Find the titles of movies stared by “Benedict Cumberbatch” and released between 2005 and 2015.
 ![image](photo/規定查詢/1.png)
@@ -13,11 +22,10 @@
 - View10 best customers (in terms of money paid to the company)
 ![image](photo/規定查詢/5.png)
 
-This is a term project for course 'Database'.
-基於 Django + Vue.js 的現代化視頻店管理系統。
-因為每台設備環境不同；建議使用Docker部署。
-可用去photo查看er圖，關係模型和sql查詢結果
-因為Django會自動在資料庫生成一些表；是Django框架的基礎設施表，不是業務邏輯的一部分。auth開頭和django開頭的表，這些表不會畫在er圖和關係模型上。
+## ER圖
+![image](photo/ER圖.png)
+## 關係模型
+![image](photo/關係模型.png)
 
 
 ## 功能特性
@@ -85,9 +93,9 @@ npm run serve
 ## 項目結構
 ```
 vsms/
-├── backend/          # Django 後端
-├── frontend/         # Vue.js 前端
-└── database/         # 資料庫檔案
+├── backend/          # Django 後端  
+├── frontend/         # Vue.js 前端  
+└── database/         # 資料庫檔案  
 
 ```
 如果有問題可以找Bernie，是他教我的。。。
