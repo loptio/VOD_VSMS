@@ -23,9 +23,9 @@
 ![image](photo/規定查詢/5.png)
 
 ## ER圖
-![image](photo/ER圖.png)
+![image](photo/database_term-er_model (1).jpg)
 ## 關係模型
-![image](photo/關係模型.png)
+![image](photo/database_term-關係模型.jpg)
 
 
 ## 功能特性
