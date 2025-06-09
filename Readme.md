@@ -1,4 +1,17 @@
 # VSMS - video sales management system
+# 411277043趙徊智  411277017 黃榮恩
+
+## 介面展示
+- Find the titles of movies stared by “Benedict Cumberbatch” and released between 2005 and 2015.
+![image](photo/規定查詢/1.png)
+- Find the favorite actress (es) of the member named “John Smith.” (whose movies are downloaded the most).
+![image](photo/規定查詢/2.png)
+- View 10 most frequently downloaded titles for the last year.
+![image](photo/規定查詢/3.png)
+- Find the month in which the sales of horror movies gross the most.
+![image](photo/規定查詢/4.png)
+- View10 best customers (in terms of money paid to the company)
+![image](photo/規定查詢/5.png)
 
 This is a term project for course 'Database'.
 基於 Django + Vue.js 的現代化視頻店管理系統。
@@ -48,7 +61,7 @@ This is a term project for course 'Database'.
 cd backend
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r ../requirements.txt # Windows: pip install -r ..\requirements.txt
 python manage.py migrate
 python manage.py runserver
 ```
@@ -57,9 +70,9 @@ python manage.py runserver
 ```bash
 cd frontend
 npm install
-npm run dev
+npm run serve
 ```
-### 部署完成後每次打開前端和後端的服務都需要cd到backend（cd好後用python manage.py runserver打開服務）和frontend（cd好後用npm run dev用打開服務）的資料夾下。
+# 部署完成後每次打開前端和後端的服務都需要cd到backend（cd好後用python manage.py runserver打開服務）和frontend（cd好後用npm run serve用打開服務）的資料夾下。
 
 ### 訪問地址
 - 前端：http://localhost:8081
