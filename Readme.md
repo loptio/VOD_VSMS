@@ -23,7 +23,7 @@
 ![image](photo/規定查詢/5.png)
 
 ## ER圖
-![image](photo/database_term-er_model (1).jpg)
+![image](photo/er_model.jpg)
 ## 關係模型
 ![image](photo/database_term-關係模型.jpg)
 
